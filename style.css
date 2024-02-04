@@ -53,6 +53,7 @@ body {
     font-size: 4rem;
     text-align: center;
     text-shadow: 3px 3px black;
+    /*border: 1px #FE7A36 solid;*/
 }
 
 .game {
@@ -65,7 +66,7 @@ body {
     font-family: "square_peg";
 }
 
-.btn {
+#play-button {
     width: 200px;
     height: 50px;
     background-color: #fe7a36;
@@ -74,10 +75,6 @@ body {
     font-size: 32px;
 }
 
-.dice-image-1 {
-
-}
-
-.link:hover {
+#play-button:hover {
     cursor: pointer;
 }

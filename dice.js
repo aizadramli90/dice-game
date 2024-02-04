@@ -2,9 +2,11 @@ function rollTheDice() {
     let randomNumber_player1 = Math.floor(Math.random()*6) + 1;
     let randomNumber_player2 = Math.floor(Math.random()*6) + 1;
 
+    console.log(randomNumber_player1);
+    console.log(randomNumber_player2);
 
-    document.getElementById("dice1").src = `dice${randomNumber_player1}`.png;
-    document.getElementById("dice2").src = `dice${randomNumber_player2}`.png;
+    document.getElementById("dice1").src = `./images/dice${randomNumber_player1}.png`;
+    document.getElementById("dice2").src = `./images/dice${randomNumber_player2}.png`;
 
     let announce = document.querySelector("h1");
 
